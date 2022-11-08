@@ -7,6 +7,8 @@ public class CustomerManager { //müşteri listeleme gibi düşün
         /*
         
         -----böyle yaparsak oracle a BAĞLANMIŞ OLURUZ ------
+       
+        ----- farklı veritabanı sınıfları ekleyerek onlara da erişmiş oluruz -----
         
         OracleDatabaseManager oracleDatabaseManager=new OracleDatabaseManager();
         oracleDatabaseManager.getData();
