@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.*;
 import java.util.ArrayList;
-public class Main {   //netbeans add jar
+public class Main {   //netbeans add jar  (netbeans kullanımı için jar dosyasını eklemek için kaynak taraması yapılabilir)
     public static void main(String[] args) throws SQLException{
         
         selectDemo();     //Kayıt Getirir-Okur
