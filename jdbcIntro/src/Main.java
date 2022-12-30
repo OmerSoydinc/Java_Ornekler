@@ -67,7 +67,7 @@ public class Main {   //netbeans add jar
             
                                                    //değerler genellikle kullanıcıdan alınır                              
             //resultSet=statement.executeQuery();  //insert de sql cümlesi buraya yazılmaz 
-                                                    //BURAYA YAZILIR                                                     //kullanıcıdan alınmak istenirse eğer ? ? ? ? şeklinde yazılır
+                                                    //BURAYA YAZILIR                    //kullanıcıdan alınmak istenirse eğer ? ? ? ? şeklinde yazılır
             statement =connection.prepareStatement(sql);
             
             //burada da ? olan yerlere değerleri vermemiz gereklidir.
