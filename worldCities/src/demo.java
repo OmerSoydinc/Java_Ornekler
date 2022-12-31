@@ -234,7 +234,7 @@ public class demo extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtSearchKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtSearchKeyReleased
-        // Aram eventi (Girilen değeri tabloda arıyacak)  ---Filtreleme--
+        // Arama eventi (Girilen değeri tabloda arıyacak)  ---Filtreleme--
         
         String searchKey = txtSearch.getText();
         TableRowSorter<DefaultTableModel> tableRowSorter = new TableRowSorter<DefaultTableModel>(model);  //ilgili modeli kullanarak nesneyi oluşturduk
