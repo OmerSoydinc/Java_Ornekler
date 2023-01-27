@@ -14,18 +14,14 @@ public class Product {
         _price=price;
         _stockAmount=stockAmount;
         _renk=renk;
-    
         
     }
     
     public Product(){   //overloading aşırı yükleme
         
     }
-    
-    
-    
-    
-    
+   
+      
     private int _id;
     private String _name;
     private String _description;
@@ -34,8 +30,6 @@ public class Product {
     private String _renk;
     private String _kod;
     
-   
-
    
 //-------------------------------------------------
     
@@ -116,8 +110,5 @@ public class Product {
    public String getKod(){
        
        return _name.substring(0,1)+_id;
-   }
-   
-   
-   
-}   
+   }  
+}
